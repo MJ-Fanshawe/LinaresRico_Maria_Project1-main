@@ -1,0 +1,60 @@
+.hidden {
+    display: none;
+}
+
+#wrapper{
+    width: 470px;
+    margin: 20px auto;
+    border: solid 1px #333;
+    border-radius: 15px;
+    background-color: #efefef;
+
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding: 20px 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+image {
+    width: 8px ;
+    height: 3px;
+    box-shadow: 12px 12px 0 #ca7506;
+}
+
+body {
+    font-family: 'Indie Flower', arial, sans-serif;
+    font-size: 20px;
+    color: #131313;
+    font-weight: 100;
+}
+
+p {
+    line-height: 30px;
+    color: #363636;
+}
+
+h2 {
+    font-family: 'Carter One', Arial, sans-serif;
+    font-size: 56px;
+    letter-spacing: 6px;
+    background-color: rgb(226, 177, 14);
+    color: #fff;
+    padding: 15px;
+    box-shadow: 15px 15px 0 #ca7506;
+    text-align: center;
+}
+
+h3 { 
+    font-family: 'Signika Negative', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 1;
+    margin-bottom: 15px;
+
+}
